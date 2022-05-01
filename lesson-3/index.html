@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <title>Lesson 3</title>
+  </head>
+  <body>
+      <!-- Formalar -->
+      <form action="https://google.com" method="get">
+          <label for="name-input">Foydalanuvchi ismi:</label>
+          <input type="text" placeholder="Ismingiz" value="Amirbek" required id="name-input" name="name" spellcheck="false">
+          <br><br>
+          <label for="name-input">Foydalanuvchi jinsi:</label>
+                <label for="male">
+                    Erkak
+                    <input type="radio" name="gender" id="male">
+                </label>
+                <label for="female">
+                    Ayol
+                    <input type="radio" name="gender" id="female">
+                </label>
+          <br><br>
+          <label for="">O'qigan kitoblaringiz soni</label>
+            <input type="range" step="5" min="10" max="20">
+          <br><br>
+          <label for="name-input">Foydalanuvchi ismi:</label>
+          <input type="text" placeholder="Ismingiz" value="Amirbek" required id="name-input" name="name" spellcheck="false">
+          <br><br>
+          <label for="age">Foydalanuvchi yoshi:</label>
+          <input type="number" placeholder="Yoshingiz" id="age">
+          <br><br>
+          <label for="date">Sana:</label>
+          <input type="date" id="data">
+          <br><br>
+          <label for="week">Hafta:</label>
+          <input type="week" id="week">
+          <br><br>
+          <label for="datetime">Vaqt va sana:</label>
+          <input type="datetime-local" id="datetime">
+          <br><br>
+          <label for="pass">Parol:</label>
+          <input type="password" id="pass">
+          <br><br>
+          <label for="color-input">Rangi:</label>
+          <input type="color" id="color-input">
+          <br><br>
+          <label for="email-input">Emailingiz:</label>
+          <input type="email" id="email-input">
+          <br><br>
+          <label for="file-input">Fayl tanlang:</label>
+          <input type="file" id="file" accept=".zip">
+          <br><br>
+          <label for="url-input">Saytingiz:</label>
+          <input type="url" id="url-input">
+          <br><br>
+          <label for="tel-input">Telefon raqamingiz:</label>
+          <input type="tel" id="tel-input">
+          <br><br>
+          <label for="accept">
+              <input type="checkbox" id="accept">
+            shartlarga roziman
+            </label>
+            <br><br>
+          <input type="reset" value="Tozalash">
+          <input type="submit" value="Yuborish">
+      </form>
+  </body>
+</html>
