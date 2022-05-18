@@ -1,0 +1,87 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+/*
+.paragraph {
+    color: crimson;
+    font-size: 30px;
+}
+#p-2 {
+    color: dodgerblue;
+    font-size: 50px;
+}
+p[title="lorem"] {
+    color: midnightblue;
+    font-size: 25px;
+}
+h1, h2, h3 {
+    color: blue;
+    font-family: sans-serif;
+}
+div#main-div.container {
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+}
+*/
+
+/* 
+
+1. !important;
+2. id
+3. class
+4. attribute
+5. tag
+
+*/
+
+
+/* 
+.container {
+    background-color: green;
+} */
+
+div[data-attr="div"] {
+    background-color: chocolate;
+}
+
+div {
+    background-color: blue;
+}
+
+/* #main-div {
+    background-color: blueviolet;
+} */
+
+
+h1 {
+    margin: 10px;
+}
+
+
+.tomato {
+    background-color: #ff6347;
+}
+.orange {
+    background-color: orange;
+}
+.dodgerblue {
+    background-color: dodgerblue;
+}
+.medium-sea-green {
+    background-color: mediumseagreen;
+}
+.gray {
+    background-color: gray;
+}
+.slate-blue {
+    background-color: slateblue;
+}
+.violet {
+    background-color: violet;
+}
+.light-gray {
+    background-color: lightgray;
+}
